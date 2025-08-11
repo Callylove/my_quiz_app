@@ -48,7 +48,6 @@ class _QuizPageState extends State<QuizPage> {
     'A slug\'s blood is green.'
   ];
   int questionNumber = 0;
-  int answersNumber = 0;
   List<bool> answers = [
     false, true, true
   ];
