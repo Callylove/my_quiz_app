@@ -42,7 +42,11 @@ class QuizPage extends StatefulWidget {
 // State class for QuizPage - handles the UI and logic
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scoreKeeper = [];
-  List<String> questions = ['what is my name', 'My name is Callista', 'Learning about flutter events'];
+  List<String> questions = [
+    'You can lead a cow down the stairs but not up stairs.',
+    'Approximately one quarter of human bones are in the feet.',
+    'A slug\'s blood is green.'
+  ];
   int questionNumber = 0;
   int answersNumber = 0;
   List<bool> answers = [
